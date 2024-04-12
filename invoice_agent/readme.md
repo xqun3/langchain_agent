@@ -1,14 +1,18 @@
 ## 1、安装相关包
 
-pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -r requirements.txt 
+
+## 填充运行变量
+
+bucket = ""  #Name of bucket with data file and OpenAPI file
+SENDER = ""  #Sender email address
+KNOWLEDGEB_BASE_ID=""
 
 ## 2、运行
 
 ```
-python src/Server.py
+cd src
+streamlit run ui.py
+# 或者
+python core_xml_agent3_dynamodb.py
 ```
-
-## 3、修改配置
-
-修改confs
-

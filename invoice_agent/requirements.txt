@@ -2,3 +2,4 @@ fpdf
 langchain
 boto3
 awscli
+streamlit
